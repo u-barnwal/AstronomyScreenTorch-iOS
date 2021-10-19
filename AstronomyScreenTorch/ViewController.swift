@@ -11,9 +11,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    @IBOutlet weak var swapButton: UIButton!
+    
+    @IBAction func SwapButtonClicked(_ sender: UIButton) {
+        self.view.backgroundColor = UIColor.red
+    }
+    
 }
 
