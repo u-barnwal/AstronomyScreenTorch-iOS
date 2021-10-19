@@ -16,9 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9N2-AI-Yf8">
-                                <rect key="frame" x="20" y="59" width="85" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9N2-AI-Yf8">
+                                <rect key="frame" x="173.5" y="432.5" width="67" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Button">
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
@@ -30,6 +29,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9N2-AI-Yf8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5g1-2A-WW4"/>
+                            <constraint firstItem="9N2-AI-Yf8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WJH-b8-Nvp"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="swapButton" destination="9N2-AI-Yf8" id="GmY-SI-TwR"/>

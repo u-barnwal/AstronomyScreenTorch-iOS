@@ -16,7 +16,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var swapButton: UIButton!
     
     @IBAction func SwapButtonClicked(_ sender: UIButton) {
-        self.view.backgroundColor = UIColor.red
+        
+        if(self.view.backgroundColor === UIColor.red) {
+            self.view.backgroundColor = UIColor.blue
+        } else {
+            self.view.backgroundColor = UIColor.red
+        }
     }
     
 }
