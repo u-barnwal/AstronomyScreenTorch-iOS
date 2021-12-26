@@ -2,11 +2,11 @@
 Simple app with one button that changes screen background on click
 
 ## Screenshots
-<p align="center">
+<p align="left">
   <img alt="Light" src="./res/home.png" width="30%">
-  &nbsp; &nbsp; &nbsp; &nbsp;
+  &nbsp;
   <img alt="Dark" src="./res/home_red.png" width="30%">
-  &nbsp; &nbsp; &nbsp; &nbsp;
+  &nbsp;
   <img alt="Dark" src="./res/home_blue.png" width="30%">
 </p>
 
